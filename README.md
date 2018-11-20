@@ -1,7 +1,7 @@
 # iTRaveler
 # Save the World
 
-<img src ></br>
+<img src="https://github.com/chiCKson/iTRaveler/blob/master/UIFOLDER/logo.png" alt="Logo" width="150" height="150"></br>
 
 iTRaveler is a mobile game which helps to reduce the environmental pollution. It also acts as a trip organizer. It gathers environmental information such as humidity,light,air,water and soil moisture values and photographs on particular locations and throught the app predicted values can be taken. Those predictions and original values will send to environmentalists to analyze and make desicions.
 
