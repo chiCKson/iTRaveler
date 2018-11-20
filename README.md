@@ -33,8 +33,8 @@ iTRaveler is a mobile game which helps to reduce the environmental pollution. It
 
 ## Tools and Technologies
 
-**Used Libraries**</br> [TextFieldBoxes](https://github.com/HITGIF/TextFieldBoxes) by HITGIF</br>
-[Apache License v2.0](https://github.com/HITGIF/TextFieldBoxes/blob/master/LICENSE)
+**Used Libraries**</br>
+* [Apache License v2.0](https://github.com/HITGIF/TextFieldBoxes/blob/master/LICENSE)
 
 **Used APIs**</br>
 * [Google Map API](https://developers.google.com/maps/documentation/)</br>
