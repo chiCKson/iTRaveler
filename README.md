@@ -43,6 +43,7 @@ iTRaveler is a mobile game which helps to reduce the environmental pollution. It
 [Firebase Authentication](https://firebase.google.com/docs/auth/)</br>
 [Firebase Geofire](https://github.com/firebase/geofire)</br>
 [Amazon API](https://developer.amazon.com/services-and-apis)</br>
+[Tensoflow](https://www.tensorflow.org/)</br>
 
 **Used Technologies**</br>
 * [Arduino](https://www.arduino.cc/)</br>
