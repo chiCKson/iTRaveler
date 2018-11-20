@@ -37,13 +37,13 @@ iTRaveler is a mobile game which helps to reduce the environmental pollution. It
 [Apache License v2.0](https://github.com/HITGIF/TextFieldBoxes/blob/master/LICENSE)
 
 **Used APIs**</br>
-[Google Map API](https://developers.google.com/maps/documentation/)</br>
-[Google Places API](https://developers.google.com/places/?hl=de)</br>
-[Firebase Database](https://firebase.google.com/docs/database/)</br>
-[Firebase Authentication](https://firebase.google.com/docs/auth/)</br>
-[Firebase Geofire](https://github.com/firebase/geofire)</br>
-[Amazon API](https://developer.amazon.com/services-and-apis)</br>
-[Tensoflow](https://www.tensorflow.org/)</br>
+* [Google Map API](https://developers.google.com/maps/documentation/)</br>
+* [Google Places API](https://developers.google.com/places/?hl=de)</br>
+* [Firebase Database](https://firebase.google.com/docs/database/)</br>
+* [Firebase Authentication](https://firebase.google.com/docs/auth/)</br>
+* [Firebase Geofire](https://github.com/firebase/geofire)</br>
+* [Amazon API](https://developer.amazon.com/services-and-apis)</br>
+* [Tensoflow](https://www.tensorflow.org/)</br>
 
 **Used Technologies**</br>
 * [Arduino](https://www.arduino.cc/)</br>
