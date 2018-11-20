@@ -53,5 +53,5 @@ iTRaveler is a mobile game which helps to reduce the environmental pollution. It
 **Used Languages**</br>
 * [Swift](https://swift.org/)</br>
 * [Java](https://www.java.com)</br>
-* [PHP](https://github.com/php)</br>
+* [PHP](https://php.net)</br>
 * [HTML](https://html.com)</br>
