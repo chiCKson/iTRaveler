@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginController: UIViewController {
 
@@ -27,8 +28,37 @@ class LoginController: UIViewController {
         button.layer.masksToBounds=true
         button.titleLabel?.font=UIFont.boldSystemFont(ofSize: 16)
         button.translatesAutoresizingMaskIntoConstraints=false
+        button.addTarget(self, action: #selector(handleRegister), for: .touchUpInside)
         return button
     }()
+    @objc func handleRegister(){
+        guard let email=emailTextField.text,let password=passwordTextField.text,let name=nameTextField.text else{
+            print("form is not valid")
+            return
+        }
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (authResult, error) in
+            if error != nil{
+                print(error!)
+                return
+            }
+                var ref: DatabaseReference!
+                ref = Database.database().reference()
+            
+                let values = ["name":name,"email":email]
+            ref.child("users").child((authResult?.user.uid)!).setValue(values) {
+                    (error:Error?, ref:DatabaseReference) in
+                    if let error = error {
+                        print("Data could not be saved: \(error).")
+                    } else {
+                        print("Data saved successfully!")
+                    }
+                }
+            
+            
+            guard (authResult?.user) != nil else { return }
+        }
+       
+    }
     let nameTextField:UITextField={
         let tf=UITextField()
         tf.placeholder="Name"
