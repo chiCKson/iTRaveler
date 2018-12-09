@@ -8,7 +8,7 @@
 
 import UIKit
 import Firebase
-
+import GoogleMaps
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,9 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
+        GMSServices.provideAPIKey("AIzaSyDACT5K1Hl0Eu53ZHVaqOBOH6-AGaTsCYs")
         window=UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController=UINavigationController(rootViewController: ViewController())
+    
+        window?.rootViewController = CustomTabBarController()
+        
+        UINavigationBar.appearance().barTintColor = UIColor(r:77,g:175,b:81)
+        UINavigationBar.appearance().tintColor = .white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        application.statusBarStyle = .lightContent
         return true
     }
 
