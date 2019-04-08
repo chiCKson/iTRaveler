@@ -120,10 +120,11 @@ class LoginController: UIViewController {
                                     SVProgressHUD.dismiss()
                                 }
                             }
-                        
+                        ref.child("score").child((authResult?.user.uid)!).setValue("0000")
                         
                         guard (authResult?.user) != nil else { return }
-                         self.dismiss(animated: true, completion: SVProgressHUD.dismiss)
+                        let pEditController=ProfileEditController()
+                        self.present(pEditController,animated:true,completion:nil)
                         
                     }
                 }else{
@@ -220,7 +221,7 @@ class LoginController: UIViewController {
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: testStr)
     }
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor=UIColor.white

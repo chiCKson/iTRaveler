@@ -22,13 +22,13 @@ class CustomTabBarController: UITabBarController{
         secondNavigationController.title = "Map"
         secondNavigationController.tabBarItem.image = UIImage(named: "map")
         
-         let messageController = UIViewController()
+        let eventController = EventController(collectionViewLayout: UICollectionViewFlowLayout())
        
-        let thirdNavigationController = UINavigationController(rootViewController: messageController)
-        thirdNavigationController.title = "Message"
+        let thirdNavigationController = UINavigationController(rootViewController: eventController)
+        thirdNavigationController.title = "Events"
         thirdNavigationController.tabBarItem.image = UIImage(named: "msg")
         
-        let notificationController = UIViewController()
+        let notificationController = NotificationController()
         let forthNavigationController = UINavigationController(rootViewController: notificationController)
         forthNavigationController.title = "Notification"
         forthNavigationController.tabBarItem.image = UIImage(named: "bell")

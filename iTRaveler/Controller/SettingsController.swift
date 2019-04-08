@@ -7,10 +7,11 @@
 //
 
 import UIKit
-
+import Firebase
 class SettingsController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     let settingscellId = "settingscellId"
     
+   
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if  section == 1 {
             return generalSettingsArray.count
@@ -23,6 +24,7 @@ class SettingsController: UIViewController,UITableViewDelegate,UITableViewDataSo
         if indexPath.section == 1 {
             cell.pictureImageView.image = UIImage(named: generalSettingsArray[indexPath.item].image!)
             cell.titleLabel.text = generalSettingsArray[indexPath.item].title
+            
             return cell
         }
         cell.pictureImageView.image = UIImage(named: privacySettingsArray[indexPath.item].image!)
@@ -41,12 +43,32 @@ class SettingsController: UIViewController,UITableViewDelegate,UITableViewDataSo
         }
         return "General"
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.section == 1 {
+            if indexPath.row == 0{
+                let profileEditController = ProfileEditController()
+                navigationController?.pushViewController(profileEditController, animated: true)
+                
+            }
+            if indexPath.row == 1{
+                do{
+                    try Auth.auth().signOut()
+                }catch let logoutError{
+                    print(logoutError)
+                }
+                
+                let loginController=LoginController()
+                present(loginController,animated:true,completion:nil)
+                
+            }
+        }
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 
     let tableView: UITableView = {
         let tv = UITableView()
         tv.separatorStyle = .none
-        tv.allowsSelection = false
+        tv.allowsSelection = true
         return tv
     }()
     

@@ -13,7 +13,11 @@
 		B20BB53121AD75F70049F573 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20BB53021AD75F70049F573 /* MapController.swift */; };
 		B20ECFB921A32F160036B2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20ECFB821A32F160036B2DA /* Main.storyboard */; };
 		B210E07B21A70FDD00ED481E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210E07A21A70FDD00ED481E /* LoginController.swift */; };
+		B21E7F4021FDBF0500CAE8FD /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21E7F3F21FDBF0500CAE8FD /* EventController.swift */; };
 		B2205E9C21AAC9C0005F2E1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2205E9B21AAC9C0005F2E1F /* GoogleService-Info.plist */; };
+		B239A35A21D145B500A1D0A6 /* ProfileEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239A35921D145B500A1D0A6 /* ProfileEditController.swift */; };
+		B26887AF21D3922600851722 /* downloadCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26887AE21D3922600851722 /* downloadCache.swift */; };
+		B26887B121D4133400851722 /* ViewControllerMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26887B021D4133400851722 /* ViewControllerMethods.swift */; };
 		B298006421A2761400CAD9BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298006321A2761400CAD9BF /* AppDelegate.swift */; };
 		B298006621A2761400CAD9BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298006521A2761400CAD9BF /* ViewController.swift */; };
 		B298006E21A2761600CAD9BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B298006C21A2761600CAD9BF /* LaunchScreen.storyboard */; };
@@ -23,7 +27,12 @@
 		B2A11B1821B3F081007B3D7B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A11B1721B3F081007B3D7B /* Extensions.swift */; };
 		B2A11B1A21B3F694007B3D7B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A11B1921B3F694007B3D7B /* Info.swift */; };
 		B2A11B1C21B85419007B3D7B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A11B1B21B85419007B3D7B /* ProfileController.swift */; };
+		B2A8281E21D3384600225B3F /* ProfileEditControllerMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A8281D21D3384600225B3F /* ProfileEditControllerMethods.swift */; };
 		B2BEA7B721AFC2AE004A444F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BEA7B621AFC2AE004A444F /* Assets.xcassets */; };
+		B2CF77BC21D749A1007757D8 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF77BB21D749A1007757D8 /* FeedCell.swift */; };
+		B2D294EB21FE2B6E00E1286F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D294EA21FE2B6E00E1286F /* EventCell.swift */; };
+		B2D294ED21FEF7DE00E1286F /* EventControllerMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D294EC21FEF7DE00E1286F /* EventControllerMethods.swift */; };
+		B2D294EF21FF636100E1286F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D294EE21FF636100E1286F /* NotificationController.swift */; };
 		B2DC579521B19225008081DA /* IntroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC579421B19225008081DA /* IntroController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +57,11 @@
 		B20BB53021AD75F70049F573 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		B20ECFB821A32F160036B2DA /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B210E07A21A70FDD00ED481E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B21E7F3F21FDBF0500CAE8FD /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
 		B2205E9B21AAC9C0005F2E1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B239A35921D145B500A1D0A6 /* ProfileEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditController.swift; sourceTree = "<group>"; };
+		B26887AE21D3922600851722 /* downloadCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = downloadCache.swift; sourceTree = "<group>"; };
+		B26887B021D4133400851722 /* ViewControllerMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMethods.swift; sourceTree = "<group>"; };
 		B298006021A2761400CAD9BF /* iTRaveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTRaveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B298006321A2761400CAD9BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B298006521A2761400CAD9BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +75,12 @@
 		B2A11B1721B3F081007B3D7B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B2A11B1921B3F694007B3D7B /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		B2A11B1B21B85419007B3D7B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		B2A8281D21D3384600225B3F /* ProfileEditControllerMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditControllerMethods.swift; sourceTree = "<group>"; };
 		B2BEA7B621AFC2AE004A444F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2CF77BB21D749A1007757D8 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B2D294EA21FE2B6E00E1286F /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		B2D294EC21FEF7DE00E1286F /* EventControllerMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventControllerMethods.swift; sourceTree = "<group>"; };
+		B2D294EE21FF636100E1286F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		B2DC579421B19225008081DA /* IntroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +130,9 @@
 				B2DC579421B19225008081DA /* IntroController.swift */,
 				B2A11B1521B3E919007B3D7B /* SettingsController.swift */,
 				B2A11B1B21B85419007B3D7B /* ProfileController.swift */,
+				B239A35921D145B500A1D0A6 /* ProfileEditController.swift */,
+				B21E7F3F21FDBF0500CAE8FD /* EventController.swift */,
+				B2D294EE21FF636100E1286F /* NotificationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +188,12 @@
 				B2A11B1321B31935007B3D7B /* CustomTabBarController.swift */,
 				B2A11B1721B3F081007B3D7B /* Extensions.swift */,
 				B2A11B1921B3F694007B3D7B /* Info.swift */,
+				B2A8281D21D3384600225B3F /* ProfileEditControllerMethods.swift */,
+				B26887AE21D3922600851722 /* downloadCache.swift */,
+				B26887B021D4133400851722 /* ViewControllerMethods.swift */,
+				B2CF77BB21D749A1007757D8 /* FeedCell.swift */,
+				B2D294EA21FE2B6E00E1286F /* EventCell.swift */,
+				B2D294EC21FEF7DE00E1286F /* EventControllerMethods.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -339,6 +366,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-iTRaveler/Pods-iTRaveler-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -346,6 +374,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,11 +424,20 @@
 				B20BB53121AD75F70049F573 /* MapController.swift in Sources */,
 				B298006621A2761400CAD9BF /* ViewController.swift in Sources */,
 				B2A11B1421B31935007B3D7B /* CustomTabBarController.swift in Sources */,
+				B26887AF21D3922600851722 /* downloadCache.swift in Sources */,
 				B2A11B1A21B3F694007B3D7B /* Info.swift in Sources */,
+				B2D294EB21FE2B6E00E1286F /* EventCell.swift in Sources */,
 				B2A11B1821B3F081007B3D7B /* Extensions.swift in Sources */,
+				B2D294ED21FEF7DE00E1286F /* EventControllerMethods.swift in Sources */,
+				B21E7F4021FDBF0500CAE8FD /* EventController.swift in Sources */,
 				B2A11B1C21B85419007B3D7B /* ProfileController.swift in Sources */,
+				B239A35A21D145B500A1D0A6 /* ProfileEditController.swift in Sources */,
 				B2A11B1621B3E919007B3D7B /* SettingsController.swift in Sources */,
+				B2A8281E21D3384600225B3F /* ProfileEditControllerMethods.swift in Sources */,
+				B2D294EF21FF636100E1286F /* NotificationController.swift in Sources */,
 				B210E07B21A70FDD00ED481E /* LoginController.swift in Sources */,
+				B2CF77BC21D749A1007757D8 /* FeedCell.swift in Sources */,
+				B26887B121D4133400851722 /* ViewControllerMethods.swift in Sources */,
 				B298006421A2761400CAD9BF /* AppDelegate.swift in Sources */,
 				B2DC579521B19225008081DA /* IntroController.swift in Sources */,
 			);
